@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mogra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fdf9f2;
+}
+
+nav ul {
+  padding: 30px 0px 0px 26px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin: 0px 16px;
+  color: #822121eb;
+  font-size: 3.77vh;
+  font-family: "Fira Sans", sans-serif;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 119, 0);
+}
+
+.searchbox {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  padding: 2px 17px 0px 14px;
+  height: 14vh;
+  background-color: #fdf9f2;
+}
+
+.searchbox {
+  padding: 23px 0px;
+}
+
+#search {
+  height: 32px;
+  width: 224px;
+}
+
+.input {
+  margin: 0px 10px;
+}
+
+input::placeholder {
+  padding: 0px 6px;
+}
+
+.c1 {
+  display: flex;
+  padding: 15px 15px 27px 14px;
+  height: 74vh;
+}
+
+.about {
+  padding: 2px 0px 0px 0px;
+  font-size: 16px;
+  color: #571616;
+  height: 74vh;
+  width: 24vw;
+}
+
+#v1 {
+  padding: 13px 0px 0px 0px;
+  width: 70vw;
+  height: 74vh;
+}
+
+#abt {
+  line-height: 23px;
+  text-align: justify;
+  font-family: "Roboto Slab", serif;
+  font-weight: 550;
+}
+
+h1 {
+  display: flex;
+  font-size: 54px;
+  justify-content: center;
+  margin: 0px 0px 7px 0px;
+}
+
+.c2 {
+  padding: 10px 0px 25px 0px;
+  height: 100vh;
+  width: 98vw;
+  background-color: #fdf9f2;
+}
+
+.sfy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18vh;
+  width: 98vw;
+}
+
+#special {
+  color: #571616;
+  font-size: 35px;
+  font-weight: 600;
+  word-spacing: 8px;
+  font-family: "Pacifico", cursive;
+}
+
+.menu {
+  display: flex;
+  padding: 0px 0px 0px 8px;
+  height: 75vh;
+  width: 98vw;
+}
+
+.item {
+  height: 44vh;
+  width: 34vw;
+  margin: 24px 27px;
+}
+.i {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 2px 2px 7px 1px #571616;
+}
+
+img {
+  width: 100%;
+  padding: 0px 0px 0px 2px;
+}
+
+.pcenter h3 {
+  padding: 14px 0px 0px 0px;
+  justify-content: center;
+  display: flex;
+  color: #571616;
+  font-size: 21px;
+}
+.pcenter p {
+  padding: 8px 0px 0px 0px;
+  margin: 4px 0px;
+  text-align: center;
+  color: #822121eb;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.c3 {
+  padding: 10px 0px 0px 0px;
+  height: 100vh;
+  width: 98vw;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(vector-coffee-items-set-patten_6229-670.avif);
+}
+
+#reservation_heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #571616;
+  margin: 28px 0px 34px 0px;
+}
+
+.threeparts {
+  display: flex;
+  padding: 22px 0px 0px 0px;
+}
+
+.side {
+  margin: 0px 35px;
+  width: 80vw;
+  height: 55vh;
+  overflow: hidden;
+}
+
+.content p {
+  padding: 65px 40px 30px 40px;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: 450px;
+}
+
+.v2 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#button {
+  display: block;
+  padding: 11px 6px 7px 6px;
+  margin: auto;
+  font-size: 26px;
+  font-family: "Mogra", cursive;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: rgb(71, 40, 6);
+  color: white;
+}
+
+.c4 {
+  display: flex;
+  height: 100vh;
+  width: 98vw;
+  background-color: #fdf9f2;
+}
+
+.wid {
+  width: 24vw;
+}
+
+.add {
+  width: 50vw;
+}
+
+.heading {
+  margin: 28px 0px 12px 0px;
+  font-size: 4.4vh;
+  color: #571616;
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+}
+
+.in {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  color: rgba(130, 33, 33, 0.92);
+  font-size: 2.5vh;
+  font-weight: 600;
+  line-height: 6vh;
+}
+
+.map iframe {
+  display: block;
+  margin: auto;
+  height: 57vh;
+  width: 70%;
+  padding: 3vh 1.5vw;
+  box-shadow: 2px 2px 9px 1px black;
+}
+
+#address {
+  font-family: "Roboto Slab", serif;
+  margin: 0vh 1.7vw 4vh 1.7vw;
+  font-size: 2.5vh;
+  font-weight: 600;
+  line-height: 4.4vh;
+  text-align: center;
+  color: rgba(130, 33, 33, 0.92);
+}
+
+.services {
+  position: absolute;
+  margin: 40vh 5.8vw;
+}
+
+#service_heading {
+  margin: 28px 0px 12px 0px;
+  font-size: 4.4vh;
+  color: #571616;
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+}
+
+.service_items {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  font-size: 2.5vh;
+  color: rgba(130, 33, 33, 0.92);
+  font-weight: 600;
+  line-height: 5vh;
+}
+
+.service_items a {
+  text-decoration: none;
+  color: rgba(130, 33, 33, 0.92);
+}
+
+#footer {
+  text-align: center;
+  font-size: 2vh;
+  padding: 1.3vh 0vw 1.1vh 0vw;
+  height: 2.7vh;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(216, 215, 215);
+  color: rgb(60, 60, 60);
+}
+
+.font {
+  display: block;
+  margin: 1vh 3.4vw;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  line-height: 4.8vh;
+  font-weight: 600;
+  font-size: 2.7vh;
+}
+
+.follow {
+  padding: 1vh;
+}
